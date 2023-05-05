@@ -1,0 +1,45 @@
+.eadc-section {
+  margin: 50px 0;
+}
+.banner-left {
+  background-color: #980917;
+  color: white;
+}
+
+.banner-right img {
+  width: 150px;
+}
+
+.card {
+  border: transparent;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body .years {
+  background-color: #980917;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: -40px;
+}
+
+.card-body h5 {
+  color: white;
+  font-size: 30px;
+}
+/* breakpoint star */
+
+/* min-width 576px */
+
+@media (min-width: 1440px) {
+  .banner-right img {
+    width: 200px;
+  }
+}
+
+/* breakpoint end */
