@@ -1,45 +1,118 @@
-.eadc-section {
-  margin: 50px 0;
-}
-.banner-left {
-  background-color: #980917;
-  color: white;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /* fonts */
+  --font-body-primary: "Poppins", sans-serif;
+
+  /* color pallete */
+  --color-branding-primary: #830c11;
+  --color-contact-background: #f5f5f5;
+  --color-body-primary: #fff;
+  --color-text-primary: #121212;
 }
 
-.banner-right img {
-  width: 150px;
+/* .eadc-section {
+  overflow-x: hidden;
+} */
+
+.title-section img {
+  width: 210px;
+  height: auto;
+  aspect-ratio: 20/9;
 }
 
-.card {
-  border: transparent;
+/* .banner-eadc {
+  padding: 100px 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../asset/banner-eadc.png);
+  background-size: cover;
+} */
+
+/* .banner-eadc .row {
+  margin-right: 0;
+  margin-left: 0;
+} */
+
+/* .banner-eadc .logo-img p {
+  color: var(--color-body-primary);
+  font-size: 22px;
+  margin-top: 10px;
+} */
+
+.breadchrumb p {
+  font-weight: 700;
+  font-family: var(--font-body-primary);
 }
 
-.card-body {
-  display: flex;
-  justify-content: center;
+.breadchrumb p:nth-child(1) {
+  color: var(--color-text-primary);
 }
 
-.card-body .years {
-  background-color: #980917;
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  border-radius: 10px;
-  margin-top: -40px;
+.breadchrumb p:nth-child(3) {
+  color: var(--color-branding-primary);
 }
 
-.card-body h5 {
-  color: white;
-  font-size: 30px;
+.text-title-header span {
+  background-color: #830c11;
+  color: var(--color-body-primary);
+  padding: 15px;
+  font-size: 16px;
 }
+
+.kolom-card-banner h5,
+.kolom-card-banner p {
+  font-family: var(--font-body-primary);
+}
+
+.kolom-card-banner h5 {
+  font-size: 16px;
+}
+
+.kolom-card-banner p {
+  font-size: 14px;
+}
+
+/* .wrapper-filter {
+  position: relative;
+} */
+
+.active {
+  margin-top: 10px !important;
+}
+
+.filter-column {
+  background-color: #fff6f6;
+  box-sizing: border-box;
+}
+
+.kolom-card-banner .filter-text,
+.kolom-card-banner .filter-title-text {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.filter-text p:nth-child(1) span {
+  color: var(--color-branding-primary);
+}
+
+.filter-text p:nth-child(1) {
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.filter-text p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
 /* breakpoint star */
-
-/* min-width 576px */
-
-@media (min-width: 1440px) {
-  .banner-right img {
-    width: 200px;
+@media (min-width: 992px) {
+  .text-title-header span {
+    font-size: 20px;
   }
 }
-
 /* breakpoint end */
