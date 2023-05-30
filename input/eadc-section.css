@@ -11,6 +11,11 @@
   --color-text-primary: #121212;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* EADC SECTION STAR */
 /* .eadc-section {
   overflow-x: hidden;
 } */
@@ -109,10 +114,14 @@
   margin-top: 10px;
 }
 
+/* EADC SECTION END */
+
 /* breakpoint star */
-@media (min-width: 992px) {
+
+@media (min-width: 992px) and (max-width: 1300px) {
   .text-title-header span {
     font-size: 20px;
   }
 }
+
 /* breakpoint end */

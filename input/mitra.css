@@ -1,0 +1,48 @@
+/* Mitra dan Swasta SECTION STAR */
+
+.mitra-text {
+  font-family: var(--font-body-primary);
+}
+
+.mitra-text .title-text span {
+  color: var(--color-branding-primary);
+}
+
+.mitra-text .title-text,
+.galery-section .title-text {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.mitra-text .meta-text-1 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.mitra-logo-img img {
+  object-fit: contain;
+}
+/* Mitra dan Swasta SECTION END */
+
+/* breakpoint star */
+@media (max-width: 576px) {
+  .mitra-logo-img .col-12 {
+    gap: 30px;
+  }
+
+  .mitra-logo-img img {
+    width: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mitra-logo-img .col-12 {
+    gap: 100px;
+  }
+
+  .galery-section .row {
+    padding: 0 10%;
+  }
+}
+/* breakpoint end */
