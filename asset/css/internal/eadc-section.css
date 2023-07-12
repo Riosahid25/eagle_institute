@@ -78,9 +78,9 @@
   position: relative;
 } */
 
-.active {
+/* .active {
   margin-top: 10px !important;
-}
+} */
 
 .filter-column {
   background-color: var(--color-body-primary);
