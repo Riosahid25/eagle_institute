@@ -154,7 +154,7 @@
   background: #980917;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  margin-left: -253px;
+  margin-left: -60px;
   margin-top: 11px;
   /* to stop flickering of text in safari */
 
@@ -210,6 +210,7 @@
     overflow: scroll;
     padding-top: 15px;
     /* margin-top: -5px; */
+    margin-left: -225px;
   }
   .btn-flag {
     margin-right: 0;
