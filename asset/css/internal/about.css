@@ -156,12 +156,11 @@
 
 @media (min-width: 1400px) {
   .text {
-    padding: 1rem 1.7rem;
+    padding: 0.2rem 1.7rem !important;
   }
   .text .title {
     font-size: 1.9rem;
     margin: 1.3rem 0;
-  
   }
   .text .title span {
     margin-left: 1.2rem;
