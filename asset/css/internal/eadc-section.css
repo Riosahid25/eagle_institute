@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /* fonts */
+  --font-body-primary: "Poppins", sans-serif;
+
+  /* color pallete */
+  --color-branding-primary: #830c11;
+  --color-contact-background: #f5f5f5;
+  --color-body-primary: #fff;
+  --color-text-primary: #121212;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* EADC SECTION STAR */
+/* .eadc-section {
+  overflow-x: hidden;
+} */
+
+.title-section img {
+  width: 210px;
+  height: auto;
+  aspect-ratio: 20/9;
+}
+
+/* .banner-eadc {
+  padding: 100px 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/banner-eadc.png);
+  background-size: cover;
+} */
+
+/* .banner-eadc .row {
+  margin-right: 0;
+  margin-left: 0;
+} */
+
+/* .banner-eadc .logo-img p {
+  color: var(--color-body-primary);
+  font-size: 22px;
+  margin-top: 10px;
+} */
+
+.breadchrumb p {
+  font-weight: 700;
+  font-family: var(--font-body-primary);
+}
+
+.breadchrumb p:nth-child(1) {
+  color: var(--color-text-primary);
+}
+
+.breadchrumb p:nth-child(3) {
+  color: var(--color-branding-primary);
+}
+
+.text-title-header span {
+  background-color: #830c11;
+  color: var(--color-body-primary);
+  padding: 15px;
+  font-size: 16px;
+}
+
+.kolom-card-banner h5,
+.kolom-card-banner p {
+  font-family: var(--font-body-primary);
+}
+
+.kolom-card-banner h5 {
+  font-size: 16px;
+}
+
+/* .wrapper-filter {
+  position: relative;
+} */
+
+/* .active {
+  margin-top: 10px !important;
+} */
+
+.filter-column {
+  background-color: var(--color-body-primary);
+  box-sizing: border-box;
+}
+
+.kolom-card-banner .filter-text,
+.kolom-card-banner .filter-title-text {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.filter-text h2 span {
+  color: var(--color-branding-primary);
+}
+
+.filter-text h2 {
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.filter-text a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #121212;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.filter-text a:hover {
+  color: #830c11;
+}
+
+.filter-text li:hover {
+  color: #830c11;
+}
+
+.section-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 431px;
+  grid-gap: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  width: 200px;
+  height: 750px;
+  background-color: white;
+  position: absolute;
+  left: -15px;
+  top: 220px;
+  /* transition: background-color 1s; */
+}
+
+.dropdown i {
+  cursor: pointer;
+  padding-left: 80px;
+  color: #830c11;
+  font-size: 40px;
+}
+
+img.card-img-top {
+  aspect-ratio: 3/4.5;
+}
+
+.galery-section img.card-img-top {
+  aspect-ratio: 1/1;
+}
+
+.picker-window {
+  position: absolute;
+  border-top: 1px solid #d4d9d9;
+  border-bottom: 1px solid #d4d9d9;
+  height: 1.4em;
+  left: 0;
+  top: 50%;
+  transform: translateY(-65%);
+  width: 100%;
+  pointer-events: none;
+}
+
+.picker {
+  display: inline-grid;
+  width: 100%;
+  box-shadow: 0 0.5vw 2vw -5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  border-top: 2rem solid white;
+  border-bottom: 2rem solid white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: white;
+  grid-template-columns: repeat(4, fit-content(500px));
+  font-size: 1.5rem;
+  position: relative;
+  font-feature-settings: "tnum";
+  font-weight: 400;
+}
+.picker:before,
+.picker:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2.2em;
+  pointer-events: none;
+}
+.picker:before {
+  top: -0.2em;
+  background: linear-gradient(white, rgba(255, 255, 255, 0.7));
+}
+.picker:after {
+  bottom: -0.2em;
+  height: 2.4em;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), white);
+}
+.picker ul {
+  -ms-overflow-style: none;
+  max-height: 4em;
+  overflow-y: scroll;
+  margin-right: 1em;
+  scroll-snap-type: y mandatory;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+.picker ul::-webkit-scrollbar {
+  display: none;
+}
+.picker li {
+  scroll-snap-align: center;
+  height: 1.4em;
+  text-align: right;
+  word-spacing: 0.2em;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+/* EADC SECTION END */
+
+/* breakpoint star */
+@media (max-width: 320px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 350px;
+  }
+  /* .kolom-card-banner .row {
+    --bs-gutter-x: -1.5rem;
+    margin-left: calc(.5 * var(--bs-gutter-x));
+  } */
+}
+
+@media (min-width: 320.9px) and (max-width: 450px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 390px;
+  }
+}
+
+@media (min-width: 450.98px) and (max-width: 576px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 618px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 992px) {
+  .kolom-card-banner .row {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 992px) {
+  .btn-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .text-title-header span {
+    font-size: 20px;
+  }
+  .section-center {
+    grid-auto-rows: 380px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* breakpoint end */
