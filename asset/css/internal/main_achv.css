@@ -50,8 +50,8 @@ body {
   background-color: #830c11;
   color: white;
   margin-right: 2rem;
-  padding: 5px;
-  min-width: 48px;
+  padding: 7px;
+  max-width: 48px;
   border: 2px solid #830c11;
 }
 .container-main-banner h3 {

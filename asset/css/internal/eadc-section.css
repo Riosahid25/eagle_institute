@@ -23,7 +23,6 @@
 .title-section img {
   width: 210px;
   height: auto;
-  aspect-ratio: 20/9;
 }
 
 /* .banner-eadc {
@@ -318,3 +317,14 @@ img.card-img-top {
 }
 
 /* breakpoint end */
+
+/* Tambahan Berto 20 Juli */
+.more-btn {
+  width: 15%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.more-btn a {
+  color: #830c11;
+}
