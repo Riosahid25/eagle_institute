@@ -68,6 +68,10 @@
     line-height: 1.5;
     margin-bottom: 1.1rem;
   }
+
+  .background img {
+    min-height: 1073px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -130,6 +134,10 @@
   .text .paragraphs p {
     line-height: 1.5;
     margin-bottom: 1.5rem;
+  }
+
+  .background {
+    margin-bottom: 14%;
   }
 }
 
