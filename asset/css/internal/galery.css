@@ -9,11 +9,6 @@
 }
 
 .galery-section .title-text {
-  font-weight: 700;
-  font-size: 50px;
-}
-
-.galery-section .title-text {
   color: var(--color-body-primary);
 }
 

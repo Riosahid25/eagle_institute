@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "liveServer.settings.port": 5504,
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#1f6fd0",
@@ -20,4 +21,11 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#1857a4"
+=======
+<<<<<<< HEAD
+  "liveServer.settings.port": 5502
+=======
+  "liveServer.settings.port": 5503
+>>>>>>> riosahid25/master
+>>>>>>> 8593b293192de9e0cb1fe1cf3045b242672e1ce3
 }

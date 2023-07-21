@@ -1,63 +1,91 @@
 const data = [
   {
-    id: 3,
-    img: "./asset/images/2019.jpeg",
+    id: 1,
+    img: "./asset/images/2022.jpeg",
+    title: "Indonesia Bersinar",
+    text: `Ahmad Syahreza`,
+    year: "2022",
+  },
+  {
+    id: 2,
+    img: "./asset/images/2019.png",
     title: "Bakti Indonesia",
     text: `Ahmad Syahreza`,
     year: "2019",
   },
   {
-    id: 4,
-    img: "./asset/images/2018.jpeg",
+    id: 3,
+    img: "./asset/images/2018.png",
     title: "Menjadi Indonesia",
     text: `Dimas Ginanjar`,
     year: "2018",
   },
   {
-    id: 5,
-    img: "./asset/images/2017.jpeg",
+    id: 4,
+    img: "./asset/images/2017.png",
     title: "Indonesia Cerdas",
     text: `Wisnu Wardoyo`,
     year: "2017",
   },
   {
-    id: 6,
-    img: "./asset/images/2016.jpeg",
+    id: 5,
+    img: "./asset/images/2016.png",
     title: "Indonesia Sehat",
     text: `Sarah Saraswati`,
     year: "2016",
   },
   {
-    id: 8,
-    img: "./asset/images/2014.jpeg",
+    id: 6,
+    img: "./asset/images/2015.png",
+    title: "Merajut Indonesia",
+    text: `Ahmad Syahreza`,
+    year: "2015",
+  },
+  {
+    id: 7,
+    img: "./asset/images/2014.png",
     title: "Indonesia Ok",
     text: `Ahmad Syahreza`,
     year: "2014",
   },
   {
-    id: 11,
-    img: "./asset/images/2013.jpeg",
+    id: 8,
+    img: "./asset/images/2013.png",
     title: "Harmoni Indonesia",
     text: `Dimas Ginanjar`,
     year: "2013",
   },
   {
-    id: 12,
-    img: "./asset/images/2012.jpeg",
+    id: 9,
+    img: "./asset/images/2012.png",
     title: "Indonesia Tangguh",
     text: `Ahmad Syahreza`,
     year: "2012",
   },
   {
-    id: 14,
-    img: "./asset/images/2011.jpeg",
+    id: 10,
+    img: "./asset/images/2011.png",
     title: "Bagimu Indonesia",
     text: `Sarah Saraswati`,
     year: "2011",
   },
   {
-    id: 15,
-    img: "./asset/images/2007.jpeg",
+    id: 11,
+    img: "./asset/images/2010.png",
+    title: "Cerdas Indonesiaku",
+    text: `Sarah Saraswati`,
+    year: "2010",
+  },
+  {
+    id: 12,
+    img: "./asset/images/2009.png",
+    title: "Indonesia Kreatif",
+    text: `Sarah Saraswati`,
+    year: "2009",
+  },
+  {
+    id: 13,
+    img: "./asset/images/2007.png",
     title: "Hitam Putih Indonesiaku",
     text: `Sarah Saraswati`,
     year: "2007",
@@ -76,14 +104,14 @@ window.addEventListener("DOMContentLoaded", function () {
 function displayDataItems(dataItems) {
   let displayItems = dataItems.map(function (item) {
     return `<div class="col">
-              <div class="card h-100">
-              <img src="${item.img}" alt="" class="card-img-top" />
-              <div class="card-body">
-                  <h5 class="card-title">${item.title}</h5>
-                  <p class="card-text">${item.text}</p>
-              </div>
-              </div>
-          </div>`;
+            <div class="card h-100">
+            <img src="${item.img}" alt="..." class="card-img-top" loading="lazy" />
+            <div class="card-body">
+                <h5 class="card-title">${item.title}</h5>
+                <p class="card-text">${item.text}</p>
+            </div>
+            </div>
+        </div>`;
   });
 
   displayItems = displayItems.join("");

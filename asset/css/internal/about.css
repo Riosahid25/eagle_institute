@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: auto;
+  position: relative;
+}
+
+.background img {
+  width: 100%;
+  position: absolute;
+  min-height: 582px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text {
+  z-index: 1;
+  width: 100%;
+  padding: 1rem 3rem;
+  /* height: 90%; */
+  text-align: center;
+  color: white;
+}
+
+.text .title {
+  font-family: "poppins";
+  font-size: 2.5rem;
+  margin: 3rem 0;
+}
+
+.text .title span {
+  margin-left: 1rem;
+}
+
+.text .paragraphs {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+}
+
+.text .paragraphs p {
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* MEDIA FOR ABOUT SECTION */
+@media (max-width: 575.98px) {
+  .text {
+    padding: 1rem 0.8rem;
+  }
+  .text .title {
+    font-size: 1.1rem;
+    margin: 0.8rem 0;
+  }
+  .text .title span {
+    margin-left: 1rem;
+  }
+  .text .paragraphs {
+    font-size: 0.75rem;
+  }
+
+  .text .paragraphs p {
+    line-height: 1.5;
+    margin-bottom: 1.1rem;
+  }
+
+  .background img {
+    min-height: 1073px;
+  }
+}
+
+@media (min-width: 576px) {
+  .text {
+    padding: 1rem 1.2rem;
+  }
+  .text .title {
+    font-size: 1.7rem;
+    margin: 0.7rem 0;
+  }
+  .text .title span {
+    margin-left: 1rem;
+  }
+  .text .paragraphs {
+    font-size: 1rem;
+  }
+
+  .text .paragraphs p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+    padding: 1rem 1.2rem;
+  }
+  .text .title {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+  }
+  .text .title span {
+    margin-left: 1rem;
+  }
+  .text .paragraphs {
+    font-size: 1rem;
+  }
+
+  .text .paragraphs p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .text {
+    padding: 1rem 1.5rem;
+  }
+  .text .title {
+    font-size: 1.7rem;
+    margin: 1.3rem 0;
+  }
+  .text .title span {
+    margin-left: 1rem;
+  }
+  .text .paragraphs {
+    font-size: 1.1rem;
+  }
+
+  .text .paragraphs p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .background {
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text {
+    padding: 1rem 1.5rem;
+  }
+  .text .title {
+    font-size: 1.8rem;
+    margin: 1.3rem 0;
+  }
+  .text .title span {
+    margin-left: 1rem;
+  }
+  .text .paragraphs {
+    font-size: 1.1rem;
+  }
+
+  .text .paragraphs p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  .background {
+    margin-bottom: 15%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .text {
+    padding: 4.2rem 1.7rem !important;
+  }
+  .text .title {
+    font-size: 1.9rem;
+    margin: 1.3rem 0;
+  }
+  .text .title span {
+    margin-left: 1.2rem;
+  }
+  .text .paragraphs {
+    font-size: 1.3rem;
+  }
+
+  .text .paragraphs p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  .background {
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 1720px) {
+  .text {
+    padding: 1rem 2rem;
+  }
+  .text .title {
+    font-size: 3.5rem;
+    margin: 1.5rem 0;
+  }
+  .text .title span {
+    margin-left: 1.2rem;
+  }
+  .text .paragraphs {
+    font-size: 1.3rem;
+  }
+
+  .text .paragraphs p {
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+  .background {
+    margin-bottom: 5%;
+  }
+}
+/* END OF MEDIA FOR ABOUT SECTION */
