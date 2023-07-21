@@ -14,7 +14,8 @@
 
 .program-top {
     width: 100vw;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@
     font-family: 'poppins';
 }
 
-.program-top-title h1 {
+.program-top-title h2 {
     color: #830c11;
 }
 
@@ -50,7 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
 }
 
 #bottom-container2 {
@@ -70,7 +71,7 @@
 }
 
 .Program .program-bottom .program-bottom-text-container p {
-    line-height: 1.8;
+    line-height: 1.6;
     width: 40vw;
     text-align: right;
 }
