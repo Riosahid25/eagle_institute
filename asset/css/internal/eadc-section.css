@@ -328,3 +328,11 @@ img.card-img-top {
 .more-btn a {
   color: #830c11;
 }
+
+.section-center .col:nth-child(13),
+.section-center .col:nth-child(12),
+.section-center .col:nth-child(11),
+.section-center .col:nth-child(10),
+.section-center .col:nth-child(9) {
+  display: none;
+}
