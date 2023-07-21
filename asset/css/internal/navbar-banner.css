@@ -272,16 +272,23 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1020px) {
   #menu {
-    margin-top: 12px;
-    margin-left: -136px;
+    margin-top: 55px;
+    margin-left: -205px;
+  }
+}
+
+@media (min-width: 1220px) {
+  #menu {
+    margin-top: 30px;
+    margin-left: 6px;
   }
 }
 
 @media (min-width: 1441px) {
   #menu {
-    margin-top: 11px;
-    margin-left: -100px;
+    margin-top: 30px;
+    margin-left: 6px;
   }
 }

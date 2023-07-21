@@ -1,0 +1,61 @@
+/* Font import from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+/* File Root */
+:root {
+  /* root untuk font family */
+  --font-primary: "Poppins", sans-serif;
+
+  /* Color Pallet */
+  --color-branding-primary: #980917;
+  --color-font-regular: #121212;
+}
+
+/* alumni */
+.alumni {
+background: url(../../images/map.png);
+background-position-y: -30px;
+padding: 100px 0;
+background-size: cover;
+}
+
+.alumni-top-title {
+    margin-bottom: 1rem;
+    font-family: var(--font-primary);
+}
+
+.alumni-top-title h2 {
+    color: #830c11;
+}
+
+.alumni-top-title span {
+    color: black;
+}
+
+.alumni .card {
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+
+.alumni .text_kota {
+    font-family: var(--font-primary);
+    color: var(--color-font-regular);
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.alumni .text_jumlah {
+    font-family: var(--font-primary);
+    color: #777777;
+    text-align: center;
+}
+  
+  /* alumni end*/

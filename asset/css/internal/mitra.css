@@ -8,12 +8,6 @@
   color: var(--color-branding-primary);
 }
 
-.mitra-text .title-text,
-.galery-section .title-text {
-  font-weight: 700;
-  font-size: 50px;
-}
-
 .mitra-text .meta-text-1 {
   font-weight: 600;
   font-size: 20px;
