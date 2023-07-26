@@ -17,7 +17,7 @@
 
 .hero_banner {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/2.png);
-  height: 800px;
+  height: 700px;
   background-size: cover;
 }
 
@@ -56,8 +56,8 @@
 #menuToggle {
   display: block;
   position: absolute;
-  top: 39px;
-  /* right: 13px; */
+  top: 50px;
+  right: 13px;
   z-index: 1;
 
   -webkit-user-select: none;
@@ -199,6 +199,16 @@
 
 /* breakpoint */
 
+
+@media (max-width: 576px) {
+  .container .navbar-brand img {
+    width: auto;
+  }
+  .navbar .container {
+    margin-top: 0;
+  }
+}
+
 @media (max-width: 992px) {
   .navbar-collapse {
     display: none !important;
@@ -207,10 +217,8 @@
     overflow: scroll;
   } */
   #menu {
-    overflow: scroll;
-    padding-top: 15px;
-    /* margin-top: -5px; */
-    margin-left: -225px;
+    margin-top: 21px;
+    margin-left: -250px;
   }
   .btn-flag {
     margin-right: 0;
@@ -222,15 +230,17 @@
     font-size: 1.1rem;
   }
   .hero_banner img {
-    padding-top: 95px;
+    height: 700px;
+    object-fit: cover;
   }
+  .navbar .container {
+    margin-top: 0;
+  }
+  
 }
 
 @media (max-width: 768px) {
-  #menu li {
-    padding: 10px 0;
-    font-size: 22px;
-  }
+  
   .carousel-caption {
     bottom: 20%;
   }
@@ -243,52 +253,39 @@
   .carousel-caption img {
     width: 45%;
   }
-
-  #menuToggle {
-    right: 13px;
+  #menu {
+    margin-top: 5px;
+    margin-left: -255px;
   }
+  
+
 }
 
-@media (max-width: 576px) {
+@media (min-width: 992px) {
   #menu {
-    margin-top: -5px;
-  }
-  .carousel-caption {
-    font-size: 12px;
-    padding-bottom: 0;
+    margin-top: 20px;
+    margin-left: -252px;
   }
   .hero_banner img {
-    padding-top: 80px;
+    height: 700px;
+    object-fit: cover;
   }
-  .btn_banner {
-    height: 2rem;
-    font-size: 12px;
-  }
-  .carousel-caption img {
-    width: 50%;
-  }
-  .carousel-caption .caption-header {
-    font-size: 0.75rem;
+  .navbar .container {
+    margin-top: 0;
   }
 }
 
-@media (min-width: 1020px) {
+
+@media (min-width: 1200px) {
   #menu {
-    margin-top: 55px;
-    margin-left: -205px;
+    margin-top: 20px;
+    margin-left: -255px;
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   #menu {
-    margin-top: 30px;
-    margin-left: 6px;
-  }
-}
-
-@media (min-width: 1441px) {
-  #menu {
-    margin-top: 30px;
-    margin-left: 6px;
+    margin-top: 20px;
+    margin-left: -255px;
   }
 }
