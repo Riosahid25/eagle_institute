@@ -70,7 +70,7 @@
   }
 
   .background img {
-    min-height: 1073px;
+    height: 100%;
   }
 }
 
@@ -87,11 +87,15 @@
   }
   .text .paragraphs {
     font-size: 1rem;
+    max-width: 768px;
   }
 
   .text .paragraphs p {
     line-height: 1.5;
     margin-bottom: 1.5rem;
+  }
+  .background img {
+    height: 100%;
   }
 }
 
@@ -108,11 +112,15 @@
   }
   .text .paragraphs {
     font-size: 1rem;
+    max-width: 992px;
   }
 
   .text .paragraphs p {
     line-height: 1.5;
     margin-bottom: 1.5rem;
+  }
+  .background {
+    margin-bottom: 4%;
   }
 }
 
@@ -124,11 +132,13 @@
     font-size: 1.7rem;
     margin: 1.3rem 0;
   }
+
   .text .title span {
     margin-left: 1rem;
   }
   .text .paragraphs {
     font-size: 1.1rem;
+    max-width: 1200px;
   }
 
   .text .paragraphs p {
@@ -160,9 +170,9 @@
     line-height: 1.5;
     margin-bottom: 1.5rem;
   }
-  .background {
+  /* .background {
     margin-bottom: 15%;
-  }
+  } */
 }
 
 @media (min-width: 1400px) {
@@ -185,7 +195,7 @@
     margin-bottom: 1.5rem;
   }
   .background {
-    margin-bottom: 10%;
+    margin-bottom: 4%;
   }
 }
 

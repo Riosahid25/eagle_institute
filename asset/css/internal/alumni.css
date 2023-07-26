@@ -17,14 +17,15 @@
 .alumni {
 background: url(../../images/map.png);
 background-position-y: -30px;
-padding: 100px 0;
+padding-top: 50px;
+padding-bottom: 80px;
 background-size: cover;
 }
 
 .alumni-top-title {
     margin-bottom: 1.5rem;
     font-family: var(--font-primary);
-    text-align: centerq;
+    text-align: center;
 }
 
 .alumni-top-title h2 {
