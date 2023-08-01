@@ -15,6 +15,11 @@
 .galery-section .row img {
   object-fit: cover;
 }
+
+.galery-section img.card-img-top {
+  aspect-ratio: 16/9;
+  height: auto;
+}
 /* Galery Section END */
 
 /* breakpoint star */
