@@ -124,7 +124,7 @@ p {
 @media (max-width: 1199.98px) {
   .container {
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: -3px;
   }
   .container .container-img {
     height: 300vh;
