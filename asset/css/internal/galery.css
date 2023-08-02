@@ -74,9 +74,9 @@
     transform: translateY(0);
   }
 
-  .galery-section .card-img-overlay a:hover {
-    /* transform: translateY(0); */
-  }
+  /* .galery-section .card-img-overlay a:hover {
+    transform: translateY(0);
+  } */
 
   .galery-section .card-img-overlay a p:nth-child(1) {
     font-size: 14px;
