@@ -34,6 +34,7 @@ body {
 
 .visiMisi {
   background-color: rgba(131, 12, 17, 0.12);
+  padding-top: 12em;
 }
 
 .vision {
@@ -41,7 +42,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 5rem;
-  padding: 40px 0 0 0;
+  /* padding: 40px 0 0 0; */
 }
 .vision .vision-paragraph {
   font-family: var(--font-primary);
@@ -85,7 +86,7 @@ body {
   margin: 0 auto;
   max-width: 1180px;
   width: calc(100% - 40px);
-  padding: 0 20px;
+  /* padding: 0 20px; */
   display: flex;
   font-weight: 400;
 }

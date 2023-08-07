@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.detailProgramSection {
+  overflow-x: hidden;
+  font-family: "open sans";
+}
+
+.detailProgram {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailProgram .top {
+  margin-top: 93px;
+  width: 100vw;
+  height: 100%;
+}
+
+.detailProgram .top .top-img-container {
+  position: relative;
+  /* z-index: -1; */
+}
+
+.detailProgram .top .top-img-container img {
+  width: 100vw;
+  height: auto;
+  /* position: absolute; */
+}
+
+.detailProgram .top .wrapper_konten {
+  position: absolute;
+  top: 180px;
+  display: flex;
+  width: 80%;
+  left: 10%;
+  gap: 15px;
+}
+
+.wrapper_konten .left_konten .judul_atas {
+  display: flex;
+  color: white;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.wrapper_konten .left_konten .judul_atas p{
+  margin-bottom: 0;
+}
+
+.left_konten .header_banner {
+  font-size: 2.2em;
+  color: white;
+  font-weight: 600;
+}
+
+.left_konten .deskripsi_banner {
+  color: white;
+}
+
+.left_konten .lokasi_banner {
+  color: white;
+  font-size: 1em;
+}
+
+
+div.detailProgram .middle {
+  margin: 5rem 0;
+  line-height: 1.7;
+  width: 80%;
+  height: 100%;
+}
+
+/* SWIPER */
+.detailProgram .bottom {
+  /* width: 100%; */
+  height: fit-content;
+  margin-bottom: 5rem;
+}
+
+.bottom .bottom-swiper-container {
+  width: 100vw;
+  transform: translateX(10%);
+}
+
+.scrollVideo {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding: 0 0 1rem;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+.scrollVideo .video {
+  background-color: rgb(176, 176, 176);
+  inline-size: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.scrollVideo .video:last-child {
+  visibility: hidden;
+}
+
+/* END OF SWIPER */
+
+/* MEDIA FOR PROGRAM DETAIL */
+@media (max-width: 575.98px) {
+  .detailProgram .top {
+    height: 33vh;
+  }
+  .detailProgram .top .top-img-container img {
+    width: 100vw;
+    object-fit: none;
+    object-position: 7%;
+    height: 33vh;
+  }
+  .detailProgram .middle {
+    margin: 3rem 0;
+  }
+  .detailProgram .top .top-logo-container {
+    top: 7%;
+  }
+  .detailProgram .top .top-logo-container p {
+    width: 90vw;
+  }
+  .scrollVideo {
+    grid-auto-columns: 75%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .detailProgram .top {
+    height: 33vh;
+  }
+  .detailProgram .top .top-img-container img {
+    width: 100%;
+    height: 38vh;
+  }
+  .detailProgram .middle {
+    margin: 3rem 0;
+  }
+  .detailProgram .top .top-logo-container {
+    top: 7%;
+  }
+  .detailProgram .top .top-logo-container p {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .detailProgram .middle {
+    margin: 4rem 0;
+  }
+  .detailProgram .top {
+    height: auto;
+    /* margin-bottom: 2.5rem; */
+  }
+  .detailProgram .top .top-logo-container img {
+    width: 240px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .detailProgram .top {
+    height: auto;
+    /* margin-bottom: 5rem; */
+  }
+}
+
+@media (min-width: 1660px) {
+  .detailProgram .top .top-logo-container img {
+    width: 300px;
+  }
+  .detailProgram .top .top-logo-container p {
+    font-size: 1.5rem;
+  }
+  .detailProgram .middle {
+    font-size: 1.5rem;
+  }
+  .detailProgram .top {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (min-width: 2100px) {
+  .detailProgram .middle {
+    font-size: 1.5rem;
+  }
+  .detailProgram .top .top-logo-container img {
+    width: 500px;
+  }
+  .detailProgram .top .top-logo-container p {
+    font-size: 2rem;
+  }
+  .detailProgram .top {
+    margin-bottom: 15rem;
+  }
+}
+/* END OF MEDIA FOR PROGRAM DETAIL */
