@@ -33,7 +33,28 @@
 .detailProgram .top .top-img-container img {
   width: 100vw;
   height: auto;
-  /* position: absolute; */
+  position: absolute;
+  z-index: -1;
+}
+
+.detailProgram .text-hero {
+  padding: 150px 0;
+}
+
+.detailProgram .text-hero p {
+  color: #eaeaea;
+}
+
+.detailProgram .top .text-hero p:nth-child(2) {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.detailProgram .top .text-hero p:nth-child(3),
+.detailProgram .top .text-hero p:nth-child(4),
+.detailProgram .top .text-hero p:nth-child(5) {
+  font-weight: 600;
 }
 
 .detailProgram .top .wrapper_konten {
@@ -53,7 +74,7 @@
   padding-bottom: 20px;
 }
 
-.wrapper_konten .left_konten .judul_atas p{
+.wrapper_konten .left_konten .judul_atas p {
   margin-bottom: 0;
 }
 
@@ -71,7 +92,6 @@
   color: white;
   font-size: 1em;
 }
-
 
 div.detailProgram .middle {
   margin: 5rem 0;
