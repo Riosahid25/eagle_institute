@@ -199,8 +199,10 @@
 
 /* breakpoint */
 
-
 @media (max-width: 576px) {
+  .hero_banner {
+    height: 560px;
+  }
   .container .navbar-brand img {
     width: auto;
   }
@@ -236,11 +238,9 @@
   .navbar .container {
     margin-top: 0;
   }
-  
 }
 
 @media (max-width: 768px) {
-  
   .carousel-caption {
     bottom: 20%;
   }
@@ -257,8 +257,6 @@
     margin-top: 5px;
     margin-left: -255px;
   }
-  
-
 }
 
 @media (min-width: 992px) {
@@ -274,7 +272,6 @@
     margin-top: 0;
   }
 }
-
 
 @media (min-width: 1200px) {
   #menu {

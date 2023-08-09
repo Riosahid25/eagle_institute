@@ -125,7 +125,7 @@ p {
 @media (max-width: 1199.98px) {
   .achievement .container {
     margin-top: 25px;
-    margin-left: -3px;
+    margin-left: 3%;
   }
   .container .containerforflex .container-img {
     height: 300vh;
