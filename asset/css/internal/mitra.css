@@ -30,6 +30,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .mitra-logo-img .col-12 {
+    gap: 50px;
+  }
+}
+
 @media (min-width: 768px) {
   .mitra-logo-img .col-12 {
     gap: 100px;

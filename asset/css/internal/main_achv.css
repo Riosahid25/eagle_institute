@@ -13,31 +13,32 @@ body {
   font-family: "poppins";
 } */
 
-.container {
+.achievement .container {
   width: auto !important;
 }
 
-.container .container-title {
+.achievement .container .container-title {
   font-weight: 500;
   font-size: 22px;
 }
-.container .container-title span {
+.achievement .container .container-title span {
   color: #830c11;
 }
-.container .container-main {
+.container .containerforflex .container-main {
   width: 70vw;
   display: flex;
+  font-family: var(--font-primary);
 }
-.container .container-main span {
+.container .containerforflex .container-main span {
   color: #830c11;
 }
-.container .container-main h3 {
+.container .containerforflex .container-main h3 {
   font-weight: bold;
 }
-.container .container-main p {
-  font-family: sans-serif;
+.container .containerforflex .container-main p {
+  font-family: var(--font-primary);
 }
-.container .container-img {
+.container .containerforflex .container-img {
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -76,20 +77,20 @@ body {
 
 p {
   font-size: 1rem;
-  padding-left: 0.5rem;
+  /* padding-left: 0.5rem; */
   line-height: 1.6;
 }
 
 @media (max-width: 575.98px) {
-  .container {
+  .achievement .container {
     margin-top: 25px;
     margin-left: 25px;
   }
-  .container .container-img {
+  .container .containerforflex .container-img {
     height: 200vh;
     justify-content: space-evenly;
   }
-  .container .container-img img {
+  .container .containerforflex .container-img img {
     width: 140%;
   }
   .container-main-isi {
@@ -98,20 +99,20 @@ p {
   .container-main-banner {
     display: none;
   }
-  img {
+  .achievement img {
     width: 100px;
   }
 }
 @media (max-width: 991.98px) {
-  .container {
+  .achievement .container {
     margin-top: 25px;
     margin-left: 25px;
   }
-  .container .container-img {
+  .container .containerforflex .container-img {
     height: 250vh;
     justify-content: space-evenly;
   }
-  .container .container-img img {
+  .container .containerforflex .container-img img {
     width: 140%;
   }
   .container-main-isi {
@@ -122,24 +123,24 @@ p {
   }
 }
 @media (max-width: 1199.98px) {
-  .container {
+  .achievement .container {
     margin-top: 25px;
     margin-left: -3px;
   }
-  .container .container-img {
+  .container .containerforflex .container-img {
     height: 300vh;
     justify-content: space-evenly;
   }
-  .container .container-img img {
+  .container .containerforflex .container-img img {
     width: 150%;
   }
 }
 @media (max-width: 1399.98px) {
-  .container-img {
+  .containerforflex .container-img {
     height: 300vh;
     justify-content: space-evenly;
   }
-  .container-img img {
+  .containerforflex .container-img img {
     width: 150%;
   }
 } /*# sourceMappingURL=main.css.map */

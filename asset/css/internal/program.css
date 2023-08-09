@@ -44,7 +44,7 @@
 }
 
 .Program .program-bottom {
-  font-family: sans-serif;
+  font-family: var(--font-primary);
 }
 
 .Program .program-bottom .program-bottom-container {
@@ -81,13 +81,14 @@
 }
 
 .program-bottom-text-container a {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #f5f5f5;
   background-color: #830c11;
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
   transition: 0.5s;
+  font-family: var(--font-primary);
 }
 
 .program-bottom-text-container a:hover {
@@ -102,7 +103,7 @@
   }
   .Program .program-bottom .program-bottom-container {
     flex-direction: column-reverse;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
   #bottom-container2 {
     flex-direction: column-reverse;
@@ -119,7 +120,7 @@
     text-align: justify;
   }
   .program-bottom-container img {
-    width: 90vw;
+    width: 60vw;
     height: auto;
   }
 }

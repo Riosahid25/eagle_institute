@@ -50,14 +50,15 @@ background-size: cover;
     font-family: var(--font-primary);
     color: var(--color-font-regular);
     text-align: center;
-    padding: 15px;
-    font-weight: 500;
+    padding: 10px;
+    font-weight: 600;
 }
 
 .alumni .text_jumlah {
     font-family: var(--font-primary);
     color: #777777;
     text-align: center;
+    padding: 5px;
 }
   
   /* alumni end*/

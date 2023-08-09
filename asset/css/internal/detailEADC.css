@@ -43,6 +43,7 @@
   width: 80%;
   left: 10%;
   gap: 15px;
+  align-items: center;
 }
 
 .wrapper_konten .left_konten .judul_atas {
@@ -72,6 +73,10 @@
   font-size: 1em;
 }
 
+.wrapper_konten .right_konten img {
+  width: 470px;
+  height: auto;
+}
 
 div.detailProgram .middle {
   margin: 5rem 0;
@@ -179,12 +184,32 @@ div.detailProgram .middle {
   .detailProgram .top .top-logo-container img {
     width: 240px;
   }
+  .wrapper_konten .right_konten img {
+    width: 350px;
+    height: auto;
+  }
+  .left_konten .header_banner {
+    font-size: 1.1em;
+  }
+  .left_konten .deskripsi_banner {
+    font-size: 0.8em;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .detailProgram .top {
     height: auto;
     /* margin-bottom: 5rem; */
+  }
+  .wrapper_konten .right_konten img {
+    width: 350px;
+    height: auto;
+  }
+  .left_konten .header_banner {
+    font-size: 1.5em;
+  }
+  .left_konten .deskripsi_banner {
+    font-size: 0.9em;
   }
 }
 

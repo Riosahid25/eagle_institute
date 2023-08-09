@@ -310,6 +310,9 @@ body {
   .mission .mission-logo img {
     width: 300px;
   }
+  .about_info .wrap_about {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 767.98px) {
   .vision-img {
@@ -349,7 +352,7 @@ body {
   .vision {
     flex-direction: column;
     align-items: start;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
   .vision .vision-paragraph {
     margin: 0 15px;
@@ -395,6 +398,7 @@ body {
   .vision .vision-paragraph {
     margin: 0 auto;
     width: 70%;
+    padding-top: 1em;
   }
   .vision .vision-img img {
     width: 270px;
@@ -405,6 +409,7 @@ body {
   .mission .mission-paragraph {
     margin: 0 auto;
     width: 70%;
+    padding-top: 1em;
   }
   .mission .mission-img img {
     width: 270px;
