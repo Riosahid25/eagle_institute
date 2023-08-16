@@ -54,50 +54,20 @@
 .detailProgram .top .text-hero p:nth-child(3),
 .detailProgram .top .text-hero p:nth-child(4),
 .detailProgram .top .text-hero p:nth-child(5) {
-  font-weight: 600;
+  font-weight: 500;
 }
 
-.detailProgram .top .wrapper_konten {
-  position: absolute;
-  top: 180px;
-  display: flex;
-  width: 80%;
-  left: 10%;
-  gap: 15px;
-  align-items: center;
+.detailProgram .gambar_banner img {
+  width: 305px;
+  height: auto;
+  object-fit: cover;
 }
 
-.wrapper_konten .left_konten .judul_atas {
-  display: flex;
-  color: white;
-  gap: 10px;
-  align-items: center;
-  padding-bottom: 20px;
-}
-
-.wrapper_konten .left_konten .judul_atas p {
-  margin-bottom: 0;
-}
-
-.left_konten .header_banner {
-  font-size: 2.2em;
-  color: white;
-  font-weight: 600;
-}
-
-.left_konten .deskripsi_banner {
-  color: white;
-}
-
-.left_konten .lokasi_banner {
-  color: white;
-  font-size: 1em;
-}
 
 div.detailProgram .middle {
-  margin: 5rem 0;
+  margin: 2rem 0 5rem 13rem;
   line-height: 1.7;
-  width: 80%;
+  width: 100%;
   height: 100%;
 }
 
@@ -148,13 +118,13 @@ div.detailProgram .middle {
 /* MEDIA FOR PROGRAM DETAIL */
 @media (max-width: 575.98px) {
   .detailProgram .top {
-    height: 33vh;
+    height: 85vh;
   }
   .detailProgram .top .top-img-container img {
     width: 100vw;
     object-fit: none;
     object-position: 7%;
-    height: 33vh;
+    height: 85vh;
   }
   .detailProgram .middle {
     margin: 3rem 0;
@@ -168,15 +138,33 @@ div.detailProgram .middle {
   .scrollVideo {
     grid-auto-columns: 75%;
   }
+  .detailProgram .text-hero {
+    padding: 20px;
+  }
+  .detailProgram .gambar_banner img {
+    width: 300px;
+  }
+  .detailProgram .top .text-hero p:nth-child(2) {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .detailProgram .top .text-hero p:nth-child(4) {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  div.detailProgram .middle {
+  margin: 1rem 0 5rem 5rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .detailProgram .top {
-    height: 33vh;
+    height: 100vh;
   }
   .detailProgram .top .top-img-container img {
     width: 100%;
-    height: 38vh;
+    height: 75vh;
   }
   .detailProgram .middle {
     margin: 3rem 0;
@@ -187,6 +175,23 @@ div.detailProgram .middle {
   .detailProgram .top .top-logo-container p {
     width: 90vw;
   }
+  .detailProgram .text-hero {
+    padding: 20px 70px 70px 70px;
+  }
+  .detailProgram .top .text-hero p:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .detailProgram .gambar_banner img {
+    width: 370px;
+  }
+  div.detailProgram .middle {
+    margin: 1rem 0 5rem 5rem;
+    }
+
+    .scrollVideo {
+      grid-auto-columns: 40%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -200,16 +205,24 @@ div.detailProgram .middle {
   .detailProgram .top .top-logo-container img {
     width: 240px;
   }
-  .wrapper_konten .right_konten img {
-    width: 350px;
-    height: auto;
+  .detailProgram .text-hero {
+    padding: 40px 0 110px 70px;
   }
-  .left_konten .header_banner {
-    font-size: 1.1em;
+  .detailProgram .top .text-hero p:nth-child(2) {
+    font-size: 22px;
   }
-  .left_konten .deskripsi_banner {
-    font-size: 0.8em;
+  .detailProgram .top .text-hero p:nth-child(4) {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
   }
+  div.detailProgram .middle {
+    margin: 1rem 0 5rem 6rem;
+    }
+
+    .scrollVideo {
+      grid-auto-columns: 30%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -217,19 +230,18 @@ div.detailProgram .middle {
     height: auto;
     /* margin-bottom: 5rem; */
   }
-  .wrapper_konten .right_konten img {
-    width: 350px;
-    height: auto;
+  .detailProgram .top .text-hero p:nth-child(2) {
+    font-size: 22px;
   }
-  .left_konten .header_banner {
-    font-size: 1.5em;
+  .detailProgram .text-hero {
+    padding: 50px 0 170px 0px;
   }
-  .left_konten .deskripsi_banner {
-    font-size: 0.9em;
-  }
+.detailProgram .gambar_banner img {
+  width: 380px;
+}
 }
 
-@media (min-width: 1660px) {
+@media (min-width: 1200px) {
   .detailProgram .top .top-logo-container img {
     width: 300px;
   }
@@ -241,6 +253,21 @@ div.detailProgram .middle {
   }
   .detailProgram .top {
     margin-bottom: 7rem;
+  }
+  .detailProgram .gambar_banner img {
+    width: 410px;
+  }
+  .detailProgram .text-hero {
+    padding: 70px 0 130px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .detailProgram .gambar_banner img {
+    width: 480px;
+  }
+  .detailProgram .text-hero {
+    padding: 105px 0 210px;
   }
 }
 
