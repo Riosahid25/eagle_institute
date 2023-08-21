@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"); */
 
+@import url(./font-face.css);
 * {
   padding: 0;
   margin: 0;
@@ -25,7 +26,7 @@
 
 .program-top-title {
   margin-bottom: 1rem;
-  font-family: "poppins";
+  font-family: 'poppinsregular';
 }
 
 .program-top-title h2 {
@@ -44,7 +45,7 @@
 }
 
 .Program .program-bottom {
-  font-family: var(--font-primary);
+  font-family: 'poppinsregular';
 }
 
 .Program .program-bottom .program-bottom-container {
@@ -59,7 +60,7 @@
 }
 
 .program-bottom-text-container {
-  font-family: "open sans";
+  font-family: 'poppinsregular';
   display: flex;
   flex-direction: column;
   align-items: end;

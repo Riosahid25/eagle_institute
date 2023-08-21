@@ -1,7 +1,9 @@
 /* Mitra dan Swasta SECTION STAR */
 
+@import url(./font-face.css);
+
 .mitra-text {
-  font-family: var(--font-body-primary);
+  font-family: 'poppinsregular';
 }
 
 .mitra-text .title-text span {

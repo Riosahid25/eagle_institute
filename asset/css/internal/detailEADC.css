@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"); */
+
+@import url(./font-face.css);
 
 * {
   padding: 0;
@@ -8,7 +10,7 @@
 
 .detailProgramSection {
   overflow-x: hidden;
-  font-family: "open sans";
+  font-family: 'poppinsregular';
 }
 
 .detailProgram {

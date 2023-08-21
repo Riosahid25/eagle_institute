@@ -1,4 +1,6 @@
-* {
+@import url(./font-face.css);
+* 
+{
   box-sizing: border-box;
 }
 /* Galery Section STAR */

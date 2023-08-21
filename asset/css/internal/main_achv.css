@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+
+@import url(./font-face.css);
+
 body {
   padding: 0;
   margin: 0;
@@ -27,7 +30,7 @@ body {
 .container .containerforflex .container-main {
   width: 70vw;
   display: flex;
-  font-family: var(--font-primary);
+  font-family: 'poppinsregular';
 }
 .container .containerforflex .container-main span {
   color: #830c11;
@@ -36,7 +39,7 @@ body {
   font-weight: bold;
 }
 .container .containerforflex .container-main p {
-  font-family: var(--font-primary);
+  font-family: 'poppinsregular';
 }
 .container .containerforflex .container-img {
   display: flex;

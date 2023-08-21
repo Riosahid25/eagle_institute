@@ -1,4 +1,7 @@
-@import "https://fonts.googleapis.com/css2?family=Poppins&display=swap";
+/* @import "https://fonts.googleapis.com/css2?family=Poppins&display=swap"; */
+
+@import url(./font-face.css);
+
 body {
   padding: 0;
   margin: 0;
@@ -6,7 +9,7 @@ body {
 }
 .footer {
   width: 100vw;
-  font-family: var(--font-primary);
+  font-family: 'poppinsregular';
   display: block;
   /* position: absolute; */
   bottom: 0;
@@ -63,7 +66,7 @@ body {
 }
 .rights .right-title {
   color: #bc262c;
-  font-family: "poppins";
+  font-family: 'poppinsregular';
 }
 .rights .right-address {
   display: flex;
