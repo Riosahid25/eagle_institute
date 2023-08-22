@@ -105,7 +105,9 @@ function displayDataItems(dataItems) {
   let displayItems = dataItems.map(function (item) {
     return `<div class="col">
             <div class="card h-100">
+            <a href="./detailEADC.html"> 
             <img loading="lazy"src="${item.img}" alt="..." class="card-img-top" loading="lazy" />
+            </a>
             <div class="card-body">
                 <h5 class="card-title">${item.title}</h5>
                 <p class="card-text">${item.text}</p>
