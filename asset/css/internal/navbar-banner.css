@@ -20,7 +20,7 @@
 
 .hero_banner {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/2.png);
-  height: 700px;
+  height: 800px;
   background-size: cover;
 }
 
