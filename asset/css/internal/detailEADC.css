@@ -7,12 +7,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .detailProgramSection {
   overflow-x: hidden;
   font-family: 'poppinsregular';
 }
-
 .detailProgram {
   width: 100vw;
   display: flex;
@@ -20,71 +18,58 @@
   justify-content: center;
   align-items: center;
 }
-
 .detailProgram .top {
   margin-top: 93px;
   width: 100vw;
   height: 100%;
 }
-
 .detailProgram .top .top-img-container {
   position: relative;
   /* z-index: -1; */
 }
-
 .detailProgram .top .top-img-container img {
   width: 100vw;
   height: auto;
   position: absolute;
   z-index: -1;
 }
-
 .detailProgram .text-hero {
   padding: 150px 0;
 }
-
 .detailProgram .text-hero p {
   color: #eaeaea;
 }
-
 .detailProgram .top .text-hero p:nth-child(2) {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 1.5px;
 }
-
 .detailProgram .top .text-hero p:nth-child(3),
 .detailProgram .top .text-hero p:nth-child(4),
 .detailProgram .top .text-hero p:nth-child(5) {
   font-weight: 500;
 }
-
 .detailProgram .gambar_banner img {
   width: 305px;
   height: auto;
   object-fit: cover;
 }
-
-
 div.detailProgram .middle {
   margin: 2rem 0 5rem 13rem;
   line-height: 1.7;
   width: 100%;
   height: 100%;
 }
-
 /* SWIPER */
 .detailProgram .bottom {
   /* width: 100%; */
   height: fit-content;
   margin-bottom: 5rem;
 }
-
 .bottom .bottom-swiper-container {
   width: 100vw;
   transform: translateX(10%);
 }
-
 .scrollVideo {
   display: grid;
   gap: 1rem;
@@ -94,15 +79,12 @@ div.detailProgram .middle {
   overscroll-behavior-inline: contain;
   padding: 0 0 1rem;
 }
-
 .snaps-inline {
   scroll-snap-type: inline mandatory;
 }
-
 .snaps-inline > * {
   scroll-snap-align: start;
 }
-
 .scrollVideo .video {
   background-color: rgb(176, 176, 176);
   inline-size: 100%;
@@ -110,13 +92,10 @@ div.detailProgram .middle {
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-
 .scrollVideo .video:last-child {
   visibility: hidden;
 }
-
 /* END OF SWIPER */
-
 /* MEDIA FOR PROGRAM DETAIL */
 @media (max-width: 575.98px) {
   .detailProgram .top {
@@ -183,14 +162,12 @@ div.detailProgram .middle {
   .detailProgram .top .text-hero p:nth-child(2) {
     font-size: 18px;
   }
-
   .detailProgram .gambar_banner img {
     width: 370px;
   }
   div.detailProgram .middle {
     margin: 1rem 0 5rem 5rem;
     }
-
     .scrollVideo {
       grid-auto-columns: 40%;
     }
@@ -221,7 +198,6 @@ div.detailProgram .middle {
   div.detailProgram .middle {
     margin: 1rem 0 5rem 6rem;
     }
-
     .scrollVideo {
       grid-auto-columns: 30%;
     }

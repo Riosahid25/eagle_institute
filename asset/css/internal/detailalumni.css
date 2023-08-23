@@ -7,12 +7,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .detailProgramSection {
   overflow-x: hidden;
   font-family: "open sans";
 }
-
 .detailProgram {
   width: 100vw;
   display: flex;
@@ -20,24 +18,20 @@
   justify-content: center;
   align-items: center;
 }
-
 .detailProgram .top {
   margin-top: 93px;
   position: relative;
   width: 100vw;
   height: 310px;
 }
-
 .detailProgram .top .top-img-container {
   position: absolute;
   z-index: -1;
 }
-
 .detailProgram .top .top-img-container img {
   width: 100vw;
   height: auto;
 }
-
 .detailProgram .top .top-logo-container {
   position: relative;
   color: white;
@@ -45,13 +39,10 @@
   top: 40%;
   font-weight: 700;
 }
-
-
 .Program {
     margin: 4rem 0;
     overflow-x: hidden;
-  }
-  
+}
   .program-top {
     /* width: 100vw; */
     margin-top: 2rem;
@@ -62,42 +53,34 @@
     /* justify-content: center;
     align-items: center; */
   }
-  
   .program-top-title {
     margin-bottom: 1rem;
     font-family: 'poppinsregular';
   }
-  
   .program-top-title h2 {
     color: #830c11;
   }
-  
   .program-top-title span {
     color: black;
   }
-  
   .program-top-text {
     font-family: 'poppinsregular';
     line-height: 1.7;
     width: 50vw;
     color: #777777;
   }
-  
   .Program .program-bottom {
     font-family: 'poppinsregular';
   }
-  
   .Program .program-bottom .program-bottom-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
   }
-  
   #bottom-container2 {
     flex-direction: row-reverse;
   }
-  
   .program-bottom-text-container {
     font-family: 'poppinsregular';
     display: flex;
@@ -105,21 +88,17 @@
     align-items: end;
     margin: 0 2rem;
   }
-  
   #bottom-text-container2 {
     align-items: start;
   }
-  
   .Program .program-bottom .program-bottom-text-container p {
     line-height: 1.6;
     width: 40vw;
     text-align: right;
   }
-  
   #bottom-paragraph2 {
     text-align: left;
   }
-  
   .program-bottom-text-container a {
     font-size: 1rem;
     color: #f5f5f5;
@@ -130,7 +109,6 @@
     transition: 0.5s;
     font-family: var(--font-primary);
   }
-  
   .program-bottom-text-container a:hover {
     color: #ffffff;
     background-color: #5f0b0f;

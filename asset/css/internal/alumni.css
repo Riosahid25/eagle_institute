@@ -15,8 +15,6 @@
   --color-branding-primary: #980917;
   --color-font-regular: #121212;
 }
-
-
 /* alumni */
 .alumni {
 background: url(../../images/map.png);
@@ -25,21 +23,17 @@ padding-top: 50px;
 padding-bottom: 80px;
 background-size: cover;
 }
-
 .alumni-top-title {
     margin-bottom: 1.5rem;
     font-family: 'poppinsregular';
     text-align: center;
 }
-
 .alumni-top-title h2 {
     color: #830c11;
 }
-
 .alumni-top-title span {
     color: black;
 }
-
 .alumni .card {
     position: relative;
     flex-direction: column;
@@ -57,7 +51,6 @@ background-size: cover;
     padding: 10px;
     font-weight: 600;
 }
-
 .alumni .text_jumlah {
     font-family: 'poppinsregular';
     color: #494949;

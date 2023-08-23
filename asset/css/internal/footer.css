@@ -31,12 +31,10 @@ body {
   color: #fff;
   width: 100vw;
 }
-
 .footer-bottom h4 {
   font-size: 12px;
   text-align: center;
 }
-
 .left {
   display: flex;
   flex-direction: column;

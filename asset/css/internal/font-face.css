@@ -8,146 +8,90 @@
          url('../../font/poppins-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 @font-face {
     font-family: 'poppinssemibold';
     src: url('../../font/poppins-semibold-webfont.woff2') format('woff2'),
          url('../../font/poppins-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinssemibold_italic';
     src: url('../../font/poppins-bolditalic-webfont.woff2') format('woff2'),
          url('../../font/poppins-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsthin';
     src: url('../../font/poppins-thin-webfont.woff2') format('woff2'),
          url('../../font/poppins-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsthin_italic';
     src: url('../../font/poppins-thinitalic-webfont.woff2') format('woff2'),
          url('../../font/poppins-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsblack';
     src: url('../../font/poppins-black-webfont.woff2') format('woff2'),
          url('../../font/poppins-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsblack_italic';
     src: url('../../font/poppins-blackitalic-webfont.woff2') format('woff2'),
          url('../../font/poppins-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsbold';
     src: url('../../font/poppins-bold-webfont.woff2') format('woff2'),
          url('../../font/poppins-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsbold_italic';
     src: url('../../font/poppins-bolditalic-webfont.woff2') format('woff2'),
          url('../../font/poppins-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsextrabold';
     src: url('../../font/poppins-extrabold-webfont.woff2') format('woff2'),
          url('../../font/poppins-extrabold-webfont.wof') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsextrabold_italic';
     src: url('../../font/poppins-extrabolditalic-webfont.woff2') format('woff2'),
          url('../../font/poppins-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 @font-face {
     font-family: 'poppinsblack';
     src: url('poppins-black-webfont.woff2') format('woff2'),
          url('poppins-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'poppinsblack_italic';
     src: url('poppins-blackitalic-webfont.woff2') format('woff2'),
          url('poppins-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 

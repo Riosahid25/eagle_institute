@@ -8,7 +8,6 @@
 :root {
   /* root untuk font family */
   /* --font-primary: "Poppins", sans-serif; */
-
   /* Color Pallet */
   --color-branding-primary: #980917;
   --color-font-regular: #121212;
@@ -19,25 +18,21 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
-
 .line {
   width: 50%;
   height: 7px;
   background-color: #992c2e;
 }
-
 .title-container {
   display: flex;
   flex-direction: column;
   align-items: end;
   text-align: end;
 }
-
 .visiMisi {
   background-color: rgba(131, 12, 17, 0.12);
   padding-top: 12em;
 }
-
 .vision {
   display: flex;
   justify-content: center;
@@ -57,7 +52,6 @@ body {
 }
 .vision .vision-img img {
   width: 465px;
-
 }
 .mission {
   display: flex;
@@ -74,11 +68,9 @@ body {
 }
 .mission .mission-img img {
   width: 400px;
-
 }
 .mission .mission-logo img {
   width: 500px;
-
 }
 .about_grey {
   background: #efefef;
@@ -98,7 +90,6 @@ body {
 .about_info .wrap_about .fl ul {
   list-style: none;
 }
-
 .about_info .wrap_about .sos {
   margin: 0 60px 0 0;
   max-width: 200px !important;
@@ -151,7 +142,6 @@ body {
   font-family: var(--font-primary);
   font-size: 18px;
 }
-
 .about_info .wrap_about .right ul li p,
 .about_info .wrap_about .right2 ul li p {
   color: #000;

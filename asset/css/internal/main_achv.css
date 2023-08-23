@@ -8,18 +8,15 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
-
 /* .container {
   width: 90vw;
   margin-left: 50px;
   margin-top: 50px;
   font-family: "poppins";
 } */
-
 .achievement .container {
   width: auto !important;
 }
-
 .achievement .container .container-title {
   font-weight: 500;
   font-size: 22px;
@@ -49,7 +46,6 @@ body {
   position: absolute;
   right: 0;
 }
-
 .container-main-banner {
   background-color: #830c11;
   color: white;
@@ -62,28 +58,23 @@ body {
   transform: rotateZ(90deg);
   font-size: 1.2rem;
 }
-
 .container-main-isi h3 {
   border-left: 3.5px solid #520a0d;
   padding-left: 0.5rem;
 }
-
 .containerforflex {
   display: flex;
   justify-content: space-between;
 }
-
 .last-p {
   color: #830c11;
   font-size: 1rem;
 }
-
 p {
   font-size: 1rem;
   /* padding-left: 0.5rem; */
   line-height: 1.6;
 }
-
 @media (max-width: 575.98px) {
   .achievement .container {
     margin-top: 25px;
