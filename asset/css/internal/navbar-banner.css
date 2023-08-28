@@ -161,6 +161,7 @@
 }
 .carousel-caption img {
   width: 35%;
+  object-fit: contain;
 }
 .carousel-caption .caption-header {
   font-size: 1.2rem;
@@ -216,7 +217,7 @@
 }
 @media (max-width: 768px) {
   .carousel-caption {
-    bottom: 20%;
+    bottom: 25%;
   }
   .carousel-caption .caption-header {
     font-size: 1rem;
@@ -226,6 +227,7 @@
   }
   .carousel-caption img {
     width: 45%;
+    object-fit: contain;
   }
   #menu {
     margin-top: 5px;

@@ -171,6 +171,7 @@
   .text .title {
     font-size: 1.9rem;
     margin: 1.3rem 0;
+    font-family: 'poppinssemibold';
   }
   .text .title span {
     margin-left: 1.2rem;

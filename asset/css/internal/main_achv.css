@@ -20,6 +20,7 @@ body {
 .achievement .container .container-title {
   font-weight: 500;
   font-size: 22px;
+  font-family: 'poppinssemibold';
 }
 .achievement .container .container-title span {
   color: #830c11;

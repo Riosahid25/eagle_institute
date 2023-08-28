@@ -8,6 +8,9 @@
 .mitra-text .title-text span {
   color: var(--color-branding-primary);
 }
+.mitra-text .title-text {
+  font-family: 'poppinssemibold';
+}
 .mitra-text .meta-text-1 {
   font-weight: 600;
   font-size: 20px;

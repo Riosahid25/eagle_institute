@@ -10,6 +10,7 @@
 }
 .galery-section .title-text {
   color: var(--color-body-primary);
+  font-family: 'poppinssemibold';
 }
 .galery-section .row img {
   object-fit: cover;
