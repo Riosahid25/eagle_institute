@@ -19,8 +19,18 @@
 /* breakpoint ==========================================*/
 
 .hero_banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/2.png);
-  height: 800px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/02.webp);
+  height: 100vh;
+  background-size: cover;
+}
+.hero_banner2 {
+  background: url(../../images/03.webp);
+  height: 100vh;
+  background-size: cover;
+}
+.hero_banner3 {
+  background: url(../../images/04.webp);
+  height: 100vh;
   background-size: cover;
 }
 .navbar {
@@ -157,22 +167,28 @@
   transform: none;
 }
 .carousel-caption {
-  bottom: 35%;
+  bottom: 30%;
 }
 .carousel-caption img {
   width: 35%;
   object-fit: contain;
 }
 .carousel-caption .caption-header {
-  font-size: 1.2rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.carousel-caption .caption-sub {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
 }
 .btn_banner {
-  background-color: #830c11;
+  background-color: #FAB03D;
   --bs-btn-hover-bg: #950c13;
-  --bs-btn-border-color: #830c11;
-  color: white;
+  color: #830c11;
   display: flex;
   height: 3rem;
+  font-weight: 700;
+  font-size: 1.2rem;
   align-items: center;
 }
 /* breakpoint */
@@ -185,6 +201,21 @@
   }
   .navbar .container {
     margin-top: 0;
+  }
+  .carousel-caption {
+    bottom: 23% !important;
+  }
+  .carousel-caption .caption-header {
+    font-size: 1.8rem !important;
+    font-weight: 500;
+  }
+  .carousel-caption .caption-sub {
+    font-size: 1rem !important;
+    padding-bottom: 5px;
+  }
+  .btn_banner {
+    font-weight: 700;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 992px) {
@@ -205,7 +236,12 @@
     bottom: 30%;
   }
   .carousel-caption .caption-header {
-    font-size: 1.1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  .carousel-caption .caption-sub {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
   }
   .hero_banner img {
     height: 700px;
@@ -216,11 +252,16 @@
   }
 }
 @media (max-width: 768px) {
-  .carousel-caption {
+  /* .carousel-caption {
     bottom: 25%;
-  }
+  } */
   .carousel-caption .caption-header {
-    font-size: 1rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  .carousel-caption .caption-sub {
+    font-size: 1.1rem;
+    padding-bottom: 3px;
   }
   .hero_banner img {
     padding-top: 80px;

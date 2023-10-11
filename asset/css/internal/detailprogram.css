@@ -20,28 +20,32 @@
 }
 .detailProgram .top {
   margin-top: 93px;
-  position: relative;
+  /* position: relative; */
   width: 100vw;
-  height: 310px;
+  height: 100%;
 }
-.detailProgram .top .top-img-container {
+/* .detailProgram .top .top-img-container {
   position: absolute;
   z-index: -1;
-}
+} */
 .detailProgram .top .top-img-container img {
   width: 100vw;
-  height: auto;
+  height: 85vh;
+  object-fit: cover;
 }
 .detailProgram .top .top-logo-container {
   position: relative;
   color: white;
-  left: 10%;
   top: 20%;
+  text-align: center;
 }
 .detailProgram .middle {
-  margin: 5rem 0;
   line-height: 1.7;
   width: 80%;
+  margin-top: 40px;
+}
+.detailProgram .middle p{
+font-size: 1rem;
 }
 /* SWIPER */
 .detailProgram .bottom {
@@ -98,9 +102,6 @@
   .detailProgram .top .top-logo-container {
     top: 7%;
   }
-  .detailProgram .top .top-logo-container p {
-    width: 90vw;
-  }
   .scrollVideo {
     grid-auto-columns: 50%;
   }
@@ -120,9 +121,6 @@
   .detailProgram .top .top-logo-container {
     top: 7%;
   }
-  .detailProgram .top .top-logo-container p {
-    width: 90vw;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -130,7 +128,7 @@
     margin: 4rem 0;
   }
   .detailProgram .top {
-    height: auto;
+    height: 100%;
     margin-bottom: 2.5rem;
   }
   .detailProgram .top .top-logo-container img {
@@ -140,7 +138,7 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .detailProgram .top {
-    height: auto;
+    height: 100%;
     margin-bottom: 5rem;
   }
 }

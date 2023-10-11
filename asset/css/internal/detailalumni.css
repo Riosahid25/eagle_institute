@@ -23,6 +23,7 @@
   position: relative;
   width: 100vw;
   height: 310px;
+  margin-bottom: 55px;
 }
 .detailProgram .top .top-img-container {
   position: absolute;
@@ -40,7 +41,7 @@
   font-weight: 700;
 }
 .Program {
-    margin: 4rem 0;
+    margin: 1rem 0;
     overflow-x: hidden;
 }
   .program-top {
@@ -81,6 +82,9 @@
   #bottom-container2 {
     flex-direction: row-reverse;
   }
+  #bottom-container2 img {
+    object-fit: cover;
+  }
   .program-bottom-text-container {
     font-family: 'poppinsregular';
     display: flex;
@@ -94,7 +98,8 @@
   .Program .program-bottom .program-bottom-text-container p {
     line-height: 1.6;
     width: 40vw;
-    text-align: right;
+    font-size: 1.3rem;
+    font-weight: 500;
   }
   #bottom-paragraph2 {
     text-align: left;
@@ -128,7 +133,7 @@
     margin: 3rem 0;
   }
   .detailProgram .top .top-logo-container {
-    top: 7%;
+    top: 40%;
   }
   .detailProgram .top .top-logo-container p {
     width: 90vw;
@@ -146,11 +151,11 @@
     width: auto;
     height: 33vh;
   }
-  .detailProgram .middle {
+  /* .detailProgram .middle {
     margin: 3rem 0;
-  }
+  } */
   .detailProgram .top .top-logo-container {
-    top: 7%;
+    top: 35%;
   }
   .detailProgram .top .top-logo-container p {
     width: 90vw;
@@ -158,11 +163,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .detailProgram .middle {
+  /* .detailProgram .middle {
     margin: 4rem 0;
-  }
+  } */
   .detailProgram .top {
-    height: auto;
+    height: 20vh;
     margin-bottom: 2.5rem;
   }
   .detailProgram .top .top-logo-container img {
@@ -172,7 +177,7 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .detailProgram .top {
-    height: auto;
+    height: 20vh;
     margin-bottom: 5rem;
   }
 }

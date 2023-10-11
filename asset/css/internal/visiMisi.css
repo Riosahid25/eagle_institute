@@ -48,7 +48,8 @@ body {
 }
 .vision .vision-logo img {
   width: 500px;
-  height: 370px;
+  height: auto;
+  object-fit: cover;
 }
 .vision .vision-img img {
   width: 465px;
@@ -71,6 +72,9 @@ body {
 }
 .mission .mission-logo img {
   width: 500px;
+  height: auto;
+  object-fit: cover;
+  
 }
 .about_grey {
   background: #efefef;

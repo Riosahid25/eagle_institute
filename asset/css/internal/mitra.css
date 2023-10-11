@@ -2,6 +2,7 @@
 
 @import url(./font-face.css);
 
+
 .mitra-text {
   font-family: 'poppinsregular';
 }
@@ -19,6 +20,29 @@
 .mitra-logo-img img {
   object-fit: contain;
 }
+
+#demos .owl-carousel .item {
+  height: 10rem !important; 
+  background: #ffffff !important;
+  padding: 1rem !important;
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.owl-stage {
+  left: -4281px;
+  width: 6986px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+}
+
 /* Mitra dan Swasta SECTION END */
 /* breakpoint star */
 @media (max-width: 576px) {
@@ -43,3 +67,4 @@
   }
 }
 /* breakpoint end */
+

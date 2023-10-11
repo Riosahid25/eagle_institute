@@ -1,0 +1,77 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"); */
+
+@import url(./font-face.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.submissionSection {
+  overflow-x: hidden;
+  font-family: 'poppinsregular';
+}
+.submission {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.submission .middle {
+  margin: 5rem 0;
+  line-height: 1.7;
+  width: 80%;
+  padding-top: 60px;
+}
+.submission .middle h1 {
+  color: #830c11;
+  font-weight: 700;
+}
+.submission .middle h4 {
+  font-weight: 700;
+  padding: 20px 0 20px 0;
+}
+.submission .middle .isi {
+  font-size: 1.1em;
+}
+/* END OF SWIPER */
+
+/* MEDIA FOR PROGRAM DETAIL */
+@media (max-width: 575.98px) {
+  .submission .middle {
+    margin: 3rem 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .submission .middle {
+    margin: 3rem 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .submission .middle {
+    margin: 4rem 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .submission .top {
+    height: auto;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1660px) {
+  .submission .middle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 2100px) {
+  .submission .middle {
+    font-size: 1.5rem;
+  }
+}
+/* END OF MEDIA FOR PROGRAM DETAIL */

@@ -50,9 +50,12 @@
   font-weight: 500;
 }
 .detailProgram .gambar_banner img {
-  width: 305px;
+  width: 245px;
   height: auto;
   object-fit: cover;
+}
+div.detailProgram .artikel_isi {
+  width: 100vw;
 }
 div.detailProgram .middle {
   margin: 2rem 0 5rem 13rem;
@@ -99,13 +102,13 @@ div.detailProgram .middle {
 /* MEDIA FOR PROGRAM DETAIL */
 @media (max-width: 575.98px) {
   .detailProgram .top {
-    height: 85vh;
+    height: 100vh;
   }
   .detailProgram .top .top-img-container img {
     width: 100vw;
     object-fit: none;
     object-position: 7%;
-    height: 85vh;
+    height: 65vh;
   }
   .detailProgram .middle {
     margin: 3rem 0;
@@ -123,7 +126,7 @@ div.detailProgram .middle {
     padding: 20px;
   }
   .detailProgram .gambar_banner img {
-    width: 300px;
+    width: 230px;
   }
   .detailProgram .top .text-hero p:nth-child(2) {
     font-size: 16px;
@@ -137,11 +140,12 @@ div.detailProgram .middle {
   div.detailProgram .middle {
   margin: 1rem 0 5rem 5rem;
   }
+  
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .detailProgram .top {
-    height: 100vh;
+    height: 85vh;
   }
   .detailProgram .top .top-img-container img {
     width: 100%;
@@ -163,7 +167,7 @@ div.detailProgram .middle {
     font-size: 18px;
   }
   .detailProgram .gambar_banner img {
-    width: 370px;
+    width: 300px;
   }
   div.detailProgram .middle {
     margin: 1rem 0 5rem 5rem;
@@ -202,7 +206,6 @@ div.detailProgram .middle {
       grid-auto-columns: 30%;
     }
 }
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .detailProgram .top {
     height: auto;
@@ -212,13 +215,12 @@ div.detailProgram .middle {
     font-size: 22px;
   }
   .detailProgram .text-hero {
-    padding: 50px 0 170px 0px;
+    padding: 50px 0 140px 0px;
   }
 .detailProgram .gambar_banner img {
-  width: 380px;
+  width: 250px;
 }
 }
-
 @media (min-width: 1200px) {
   .detailProgram .top .top-logo-container img {
     width: 300px;
@@ -230,25 +232,23 @@ div.detailProgram .middle {
     font-size: 1.5rem;
   }
   .detailProgram .top {
-    margin-bottom: 7rem;
+    margin-bottom: 1rem;
   }
   .detailProgram .gambar_banner img {
-    width: 410px;
+    width: 300px;
   }
   .detailProgram .text-hero {
     padding: 70px 0 130px;
   }
 }
-
 @media (min-width: 1400px) {
   .detailProgram .gambar_banner img {
-    width: 480px;
+    width: 320px;
   }
   .detailProgram .text-hero {
     padding: 105px 0 210px;
   }
 }
-
 @media (min-width: 2100px) {
   .detailProgram .middle {
     font-size: 1.5rem;
